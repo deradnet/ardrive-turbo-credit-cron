@@ -1,0 +1,19 @@
+{
+  "name": "ardrive-topup",
+  "version": "1.0.0",
+  "description": "AR.IO to ArDrive Top-Up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@ar.io/sdk": "^3.14.0",
+    "@ardrive/turbo-sdk": "^1.28.3",
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
