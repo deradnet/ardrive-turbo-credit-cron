@@ -55,7 +55,7 @@ Mount this directory when running the container.
 ```bash
 docker run --rm ardrive-turbo-credit-cron \
   --get-chat-id \
-  --telegram-bot-token "YOUR_BOT_TOKEN"
+  --telegram-bot-token YOUR_BOT_TOKEN
 ```
 
 Once you send a message to your bot, the chat ID will be printed.
@@ -80,8 +80,8 @@ docker run --rm -v /keys:/wallets \
   ardrive-turbo-credit-cron \
   --wallet /wallets/YOUR_PUBLIC_KEY.json \
   --amount 50% \
-  --telegram-bot-token "YOUR_BOT_TOKEN" \
-  --telegram-username "YOUR_CHAT_ID"
+  --telegram-bot-token YOUR_BOT_TOKEN \
+  --telegram-username YOUR_CHAT_ID
 ```
 
 ---
@@ -120,7 +120,7 @@ crontab -e
 ### Run Every 6 Hours with Notifications
 
 ```bash
-0 */6 * * * docker run --rm -v /keys:/wallets ardrive-turbo-credit-cron --wallet /wallets/YOUR_PUBLIC_KEY.json --amount 5% --telegram-bot-token "YOUR_BOT_TOKEN" --telegram-username "YOUR_CHAT_ID"
+0 */6 * * * docker run --rm -v /keys:/wallets ardrive-turbo-credit-cron --wallet /wallets/YOUR_PUBLIC_KEY.json --amount 5% --telegram-bot-token YOUR_BOT_TOKEN --telegram-username YOUR_CHAT_ID
 
 ```
 
