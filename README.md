@@ -1,4 +1,4 @@
-# Ardrive topup cron
+# Ardrive Top-up Cron
 
 ARIO token to Adrive Turbo Credit converter with telegram notification and CRON support.
 
@@ -19,8 +19,8 @@ ARIO token to Adrive Turbo Credit converter with telegram notification and CRON 
 ### Build locally (Recommended)
 
 ```bash
-git clone https://github.com/deradnet/Ardrive-Turbo-Credit-Cron.git
-cd Ardrive-Turbo-Credit-Cron
+git clone https://github.com/deradnet/ardrive-turbo-credit-cron.git
+cd ardrive-turbo-credit-cron
 docker build -t ardrive-turbo-credit-cron .
 ```
 
